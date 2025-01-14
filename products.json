@@ -1,0 +1,112 @@
+{
+  "products": {
+    "product1": {
+      "productName": "The Last Wish",
+      "author": "Andrzej Sapkowski",
+      "price": 12.49,
+      "shortDescription": "Lorem ipsum dolor sit, amet consectetur adipisicing elit.",
+      "longDescription": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Lorem ipsum dolor sit, amet consectetur adipisicing. ",
+      "stock": "In stock",
+      "image": "images/book-cover-11.jpg"
+    },
+    "product2": {
+      "productName": "The Dark Saviour",
+      "author": "Miroslav Zamboch",
+      "price": 14.59,
+      "shortDescription": "Lorem ipsum dolor sit, amet consectetur adipisicing elit.",
+      "longDescription": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Lorem ipsum dolor sit, amet consectetur adipisicing. ",
+      "stock": "Out of stock",
+      "image": "images/book-cover-10.jpg"
+    },
+    "product3": {
+      "productName": "Traitor Queen",
+      "author": "Trudi Canavan",
+      "price": 15.59,
+      "shortDescription": "Lorem ipsum dolor sit, amet consectetur adipisicing elit.",
+      "longDescription": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Lorem ipsum dolor sit, amet consectetur adipisicing. ",
+      "stock": "In stock",
+      "image": "images/book-cover-9.jpg"
+    },
+    "product4": {
+      "productName": "Rogue",
+      "author": "Trudi Canavan",
+      "price": 11.98,
+      "shortDescription": "Lorem ipsum dolor sit, amet consectetur adipisicing elit.",
+      "longDescription": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Lorem ipsum dolor sit, amet consectetur adipisicing. ",
+      "stock": "Only 2 left in stock",
+      "image": "images/book-cover-8.jpg"
+    },
+    "product5": {
+      "productName": "Ambassador’s Mission",
+      "author": "Trudi Canavan",
+      "price": 12.99,
+      "shortDescription": "Lorem ipsum dolor sit, amet consectetur adipisicing elit.",
+      "longDescription": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Lorem ipsum dolor sit, amet consectetur adipisicing. ",
+      "stock": "In stock",
+      "image": "images/book-cover-7.jpg"
+    },
+    "product6": {
+      "productName": "Last of the Wilds",
+      "author": "Trudi Canavan",
+      "price": 11.59,
+      "shortDescription": "Lorem ipsum dolor sit, amet consectetur adipisicing elit.",
+      "longDescription": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Lorem ipsum dolor sit, amet consectetur adipisicing. ",
+      "stock": "In stock",
+      "image": "images/book-cover-6.jpg"
+    },
+    "product7": {
+      "productName": "Vioce of the Gods",
+      "author": "Trudi Canavan",
+      "price": 18.99,
+      "shortDescription": "Lorem ipsum dolor sit, amet consectetur adipisicing elit.",
+      "longDescription": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Lorem ipsum dolor sit, amet consectetur adipisicing. ",
+      "stock": "Only 1 left in stock",
+      "image": "images/book-cover-5.jpg"
+    },
+    "product8": {
+      "productName": "Brisinger",
+      "author": "Christopher Paolini",
+      "price": 10.98,
+      "shortDescription": "Lorem ipsum dolor sit, amet consectetur adipisicing elit.",
+      "longDescription": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Lorem ipsum dolor sit, amet consectetur adipisicing. ",
+      "stock": "In stock",
+      "image": "images/book-cover-4.jpg"
+    },
+    "product9": {
+      "productName": "Eldest",
+      "author": "Christopher Paolini",
+      "price": 10.99,
+      "shortDescription": "Lorem ipsum dolor sit, amet consectetur adipisicing elit.",
+      "longDescription": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Lorem ipsum dolor sit, amet consectetur adipisicing. ",
+      "stock": "In stock",
+      "image": "images/book-cover-3.jpg"
+    },
+    "product10": {
+      "productName": "Silmarillion",
+      "author": "J.R.R Tolkien",
+      "price": 16.99,
+      "shortDescription": "Lorem ipsum dolor sit, amet consectetur adipisicing elit.",
+      "longDescription": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Lorem ipsum dolor sit, amet consectetur adipisicing. ",
+      "stock": "In stock",
+      "image": "images/book-cover-2.jpg"
+    },
+    "product11": {
+      "productName": "Hobbit",
+      "author": "J.R.R Tolkien",
+      "price": 9.99,
+      "shortDescription": "Lorem ipsum dolor sit, amet consectetur adipisicing elit.",
+      "longDescription": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Lorem ipsum dolor sit, amet consectetur adipisicing. ",
+      "stock": "Out of stock",
+      "image": "images/book-cover-1.jpg"
+    },
+    "product12": {
+      "productName": "Rise of the Lich King",
+      "author": "Christie Golden",
+      "price": 16.29,
+      "shortDescription": "A spectacular adventure.",
+      "longDescription": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Lorem ipsum dolor sit, amet consectetur adipisicing. ",
+      "stock": "Only 1 left in stock",
+      "image": "images/book-cover-0.jpg"
+    }
+  }
+}
