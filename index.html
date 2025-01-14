@@ -31,27 +31,61 @@
           <span id="cartCounter" class="counter-number">0</span>
         </div>
       </h1>
-      <div class="search-box">
-        <labe style="display: none">Seach</labe>
-        <input
-          type="search"
-          id="search"
-          placeholder="Seach by Title"
-          data-search
-        />
-      </div>
+      <!-- search -->
     </header>
     <main>
-      <div class="banner-main" style="width: 100%">
-        <img style="width: 100%" src="images/shop-cart-project-banner-2.jpg" />
-      </div>
-      <div class="wrapper">
-        <div id="productInfo"></div>
-      </div>
+      <section id="banner-cont">
+        <div class="banner-main" style="width: 100%">
+          <img
+            style="width: 100%"
+            src="images/shop-cart-project-banner-2.jpg"
+          />
+        </div>
+      </section>
+
+      <section id="all-products">
+        <div class="wrapper">
+          <div class="search-box">
+            <label style="display: none">Seach</label>
+            <input
+              type="text"
+              id="search"
+              placeholder="Seach by Title"
+              onkeyup="search()"
+            />
+          </div>
+          <div id="productInfo"></div>
+        </div>
+      </section>
+
+      <section id="offers-slider">
+        <div class="slides-cont wrapper">
+          <a class="prev" onclick="changeSlides(-1)">&#8610;</a>
+          <a class="next" onclick="changeSlides(1)">&#8611;</a>
+
+          <div class="specSlides fade">
+            <img src="/images/slider-banner.jpg" style="width: 100%" />
+          </div>
+
+          <div class="specSlides fade">
+            <img src="/images/slider-banner1.jpg" style="width: 100%" />
+          </div>
+
+          <div class="specSlides fade">
+            <img src="/images/slider-banner3.jpg" style="width: 100%" />
+          </div>
+        </div>
+
+        <div style="text-align: center">
+          <span class="dots" onclick="currentSlide(1)"></span>
+          <span class="dots" onclick="currentSlide(2)"></span>
+          <span class="dots" onclick="currentSlide(3)"></span>
+        </div>
+      </section>
     </main>
 
     <footer>
-      <div class="footer-main">
+      <div class="footer-main wrapper">
         <div class="footer-icon-box">
           <div>
             <h3>CONTACT US</h3>
@@ -74,7 +108,7 @@
 
           <div>
             <h3>SOCIALS</h3>
-            <a href="#" target="_blank"
+            <a href="#"
               ><span class="material-symbols-outlined symbols-footer">
                 language
               </span></a
@@ -84,11 +118,11 @@
                 youtube_activity</span
               ></a
             >
-            <a href="https://www.youtube.com/" target="_blank"
+            <a href="https://www.goodreads.com/" target="_blank"
               ><span class="material-symbols-outlined symbols-footer">
-                youtube_activity</span
-              ></a
-            >
+                book_5
+              </span>
+            </a>
           </div>
         </div>
 
